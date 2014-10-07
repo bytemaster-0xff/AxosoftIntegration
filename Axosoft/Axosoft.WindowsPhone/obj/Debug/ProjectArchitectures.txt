@@ -1,0 +1,2 @@
+d:\Apps\Axosoft\Axosoft.Core\Axosoft.Core.csproj;neutral
+d:\Apps\Axosoft\Axosoft\Axosoft.WindowsPhone\Axosoft.WindowsPhone.csproj;neutral

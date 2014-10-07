@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SLMOBILE1309</Machine>
+    <WindowsUser>Kevin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>18e696a2-4eb8-41bd-8359-4c2e8dba2a01</PackageIdentityName>
+    <IntermediateOutputPath>d:\Apps\Axosoft\Axosoft\Axosoft.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F3D628A00A20E6080B7F7B949ABD22CB6A191A19F22112CB8C826A5CAB673CF9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>18e696a2-4eb8-41bd-8359-4c2e8dba2a01_1.0.0.0_neutral__zkzqb6kcb8758</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>18e696a2-4eb8-41bd-8359-4c2e8dba2a01_zkzqb6kcb8758!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>18e696a2-4eb8-41bd-8359-4c2e8dba2a01</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kevin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-28T00:11:07.027</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\bin\Debug\Axosoft.Windows.exe">
+      <PackagePath>Axosoft.Windows.exe</PackagePath>
+      <Modified>2014-09-28T00:11:06.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft.Core\bin\Debug\Axosoft.Core.dll">
+      <PackagePath>Axosoft.Core.dll</PackagePath>
+      <Modified>2014-09-28T00:10:05.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft.Core\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-09-27T23:57:41.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-13T01:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-13T01:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-13T01:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-13T01:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-28T00:10:06.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-09-28T00:10:06.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\bin\Debug\Axosoft.Windows.xr.xml">
+      <PackagePath>Axosoft.Windows.xr.xml</PackagePath>
+      <Modified>2014-09-27T23:43:00.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\Apps\Axosoft\Axosoft\Axosoft.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-28T00:11:06.968</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
