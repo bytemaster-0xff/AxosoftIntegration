@@ -1,0 +1,2 @@
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Core\Axosoft.Core.csproj;neutral
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft\Axosoft.Windows\Axosoft.Windows.csproj;x86

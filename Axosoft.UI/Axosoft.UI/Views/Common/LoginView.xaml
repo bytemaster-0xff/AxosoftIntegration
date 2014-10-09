@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="Axosoft.UI.Views.Common.LoginView">
+  <StackLayout>
+    <Label Text="Welcome to Axosoft, please login!" />
+    <Label Text="Email" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Entry Text="{Binding EmailAddress}" />
+    <Label Text="Password" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Entry Text="{Binding Password}" />
+    <Button Text="Login" Command="{Binding LoginCommand}" />
+  </StackLayout>
+</ContentPage>

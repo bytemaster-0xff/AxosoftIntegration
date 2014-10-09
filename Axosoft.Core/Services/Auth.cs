@@ -59,14 +59,13 @@ namespace Axosoft.Core.Services
                 var authResponse = JsonConvert.DeserializeObject<AuthSettings>(responseString);
                 authResponse.URL = site;
 
-                var fldr = FileSystem.Current.LocalStorage;
-                var file = await fldr.CreateFileAsync("authsettings.cfg", CreationCollisionOption.ReplaceExisting);
-                await file.WriteAllTextAsync(JsonConvert.SerializeObject(authResponse));
-             
+                await Settings.Instance.SaveSettings(authResponse);
+
                 return authResponse;
             }
             catch(Exception ex)
             {
+                Debug.WriteLine("EXCEPTION PROCESSINGLOGIN: " + ex.Message);
                 return null;
             }
         }

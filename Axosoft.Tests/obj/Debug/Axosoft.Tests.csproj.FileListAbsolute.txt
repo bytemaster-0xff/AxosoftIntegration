@@ -1,0 +1,16 @@
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\Axosoft.Tests.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\Axosoft.Tests.pdb
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\Axosoft.Core.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\PCLStorage.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\Axosoft.Core.pdb
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\PCLStorage.xml
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\obj\Debug\Axosoft.Tests.csprojResolveAssemblyReference.cache
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\obj\Debug\Axosoft.Tests.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\obj\Debug\Axosoft.Tests.pdb
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Tests\bin\Debug\GalaSoft.MvvmLight.xml

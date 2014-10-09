@@ -72,7 +72,6 @@ namespace Axosoft.Core.Services
             var fldr = FileSystem.Current.LocalStorage;
             var file = await fldr.CreateFileAsync(String.Format("workflows.cfg", _workFlows), CreationCollisionOption.ReplaceExisting);
             await file.WriteAllTextAsync(JsonConvert.SerializeObject(_workFlows));
-
         }
 
         public async Task SyncAsync()
