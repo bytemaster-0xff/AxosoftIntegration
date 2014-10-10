@@ -14,10 +14,10 @@ namespace Axosoft.UI.Droid
 {
     public partial class Resource
     {
-        public class String
+        /*public partial class String
         {
             public static int Hello { get { { return 15;  } } }
             public static int ApplicationName { get { { return 16; } } }
-        }
+        }*/
     }
 }
