@@ -1,2 +1,0 @@
-C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.Core\Axosoft.Core.csproj;neutral
-C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft\Axosoft.WindowsPhone\Axosoft.WindowsPhone.csproj;x86

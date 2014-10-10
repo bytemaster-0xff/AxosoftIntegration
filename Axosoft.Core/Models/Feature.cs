@@ -7,6 +7,13 @@ using System.Threading.Tasks;
 
 namespace Axosoft.Core.Models
 {
+
+    public class FeatureResponse
+    {
+        [JsonProperty("data")]
+        public List<Feature> Features { get; set; }
+    }
+
     public class Feature
     {
         [JsonProperty("id")]

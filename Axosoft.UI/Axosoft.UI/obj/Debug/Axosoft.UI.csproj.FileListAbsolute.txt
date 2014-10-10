@@ -1,5 +1,4 @@
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\Axosoft.UI.csprojResolveAssemblyReference.cache
-C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\WorkList.xaml.g.cs
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\bin\Debug\Axosoft.UI.dll
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\bin\Debug\Axosoft.UI.pdb
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\bin\Debug\Xamarin.Forms.Core.dll
@@ -33,3 +32,6 @@ C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\bin\De
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\LoginView.xaml.g.cs
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\SplashScreenView.xaml.g.cs
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\LauncherView.xaml.g.cs
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\WorkListItem.xaml.g.cs
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\WorkItemView.xaml.g.cs
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI\obj\Debug\WorkListView.xaml.g.cs

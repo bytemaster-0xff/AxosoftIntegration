@@ -12,5 +12,10 @@ namespace Axosoft.UI.Views.Common
         {
             InitializeComponent();
         }
+
+        public void MyWork_Clicked(Object snd, EventArgs args)
+        {
+            Navigation.PushModalAsync(new Views.WorkItems.WorkListView());
+        }
     }
 }

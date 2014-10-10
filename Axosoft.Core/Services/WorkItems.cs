@@ -51,11 +51,11 @@ namespace Axosoft.Core.Services
             return await AxoService.Instance.Call<List<TaskItem>>(uriStr.ToString());
         }
 
-        public async Task<AxoServiceCallResponse<ObservableCollection<Feature>>> GetFeaturesAsync(int pageIdx, int pageSize)
+        public async Task<AxoServiceCallResponse<FeatureResponse>> GetFeaturesAsync(int pageIdx, int pageSize)
         {
             var uriStr = new StringBuilder(String.Format("/features?page={0}&page_size={1}&assigned_to_type=user", pageIdx, pageSize));
-
-            return await AxoService.Instance.Call<ObservableCollection<Feature>>(uriStr.ToString());
+            var response = await AxoService.Instance.Call<FeatureResponse>(uriStr.ToString());
+            return response;
         }
     }
 }

@@ -31,17 +31,15 @@ namespace Axosoft.Core.Services
                 
             try
             {
-                var cfg = await Auth.Instance.GetExisitngAsync();
 
-                var requestedResource = String.Format("https://{0}/api/v2{1}", cfg.URL, path);
+                var requestedResource = String.Format("https://{0}/api/v4{1}", Settings.Instance.Auth.URL, path);
                 Debug.WriteLine("RESOURCE -> " + requestedResource);
                 var uri = new Uri(requestedResource);
-                client.DefaultRequestHeaders.Add("Authorization", String.Format("Bearer {0}", cfg.AccessToken));
-                Debug.WriteLine("Authorization: Bearer " + cfg.AccessToken);
+                client.DefaultRequestHeaders.Add("Authorization", String.Format("Bearer {0}", Settings.Instance.Auth.AccessToken));
+                Debug.WriteLine("Authorization: Bearer " + Settings.Instance.Auth.AccessToken);
                 var httpResponse = await client.GetAsync(uri);
                 if (httpResponse.IsSuccessStatusCode)
                 {
-
                     var responseString = await httpResponse.Content.ReadAsStringAsync();
                     Debug.WriteLine(responseString);
 

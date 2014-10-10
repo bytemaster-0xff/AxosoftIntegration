@@ -53,8 +53,9 @@
     <Compile Include="Services\Projects.cs" />
     <Compile Include="Services\Settings.cs" />
     <Compile Include="Services\WorkItems.cs" />
-    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\Common\LoginViewModel.cs" />
     <Compile Include="ViewModel\SplashScreenViewModel.cs" />
+    <Compile Include="ViewModel\WorkItems\WorkListViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GalaSoft.MvvmLight">

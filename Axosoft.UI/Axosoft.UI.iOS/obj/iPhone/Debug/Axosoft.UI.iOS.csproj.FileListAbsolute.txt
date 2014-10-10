@@ -27,3 +27,4 @@ C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI.iOS\bi
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
 C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.xml
+C:\Users\KevinD\Documents\GitHub\AxosoftIntegration\Axosoft.UI\Axosoft.UI.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll.mdb

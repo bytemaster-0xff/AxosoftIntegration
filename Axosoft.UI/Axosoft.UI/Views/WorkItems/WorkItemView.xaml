@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="Axosoft.UI.Views.WorkItems.WorkItemView">
+	<StackLayout>    
+  		<Label Text="{Binding Id}"  />
+		  <Label Text="Item" />
+      <Entry  Text="{Binding Name}" x:Name="TextItem1" />
+      <Editor  Text="{Binding Name, Mode=TwoWay}" HeightRequest="400" x:Name="TextItem" />
+  	</StackLayout>
+</ContentPage>

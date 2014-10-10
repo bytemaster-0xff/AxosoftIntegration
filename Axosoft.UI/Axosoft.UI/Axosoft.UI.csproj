@@ -45,8 +45,14 @@
     <Compile Include="Views\Common\SplashScreenView.xaml.cs">
       <DependentUpon>SplashScreenView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\WorkItems\WorkList.xaml.cs">
-      <DependentUpon>WorkList.xaml</DependentUpon>
+    <Compile Include="Views\WorkItems\WorkItemView.xaml.cs">
+      <DependentUpon>WorkItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkItems\WorkListView.xaml.cs">
+      <DependentUpon>WorkListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkItems\ListRows\WorkListItem.xaml.cs">
+      <DependentUpon>WorkListItem.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -85,8 +91,11 @@
     <Folder Include="Views\Settings\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\WorkItems\WorkList.xaml">
+    <EmbeddedResource Include="Views\WorkItems\WorkListView.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\WorkItems\ListRows\WorkListItem.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -104,6 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Common\LauncherView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\WorkItems\WorkItemView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

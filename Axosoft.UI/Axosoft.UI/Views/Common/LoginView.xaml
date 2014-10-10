@@ -7,7 +7,7 @@
     <Label Text="Email" VerticalOptions="Center" HorizontalOptions="Center" />
     <Entry Text="{Binding EmailAddress}" />
     <Label Text="Password" VerticalOptions="Center" HorizontalOptions="Center" />
-    <Entry Text="{Binding Password}" />
+    <Entry Text="{Binding Password}" IsPassword="true" />
     <Button Text="Login" Command="{Binding LoginCommand}" />
   </StackLayout>
 </ContentPage>
